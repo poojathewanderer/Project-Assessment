@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <ul class="nav navbar-nav">
+      <li><a [routerLink]="['/customer-login']">Customer Login</a></li>
+      <li><a [routerLink]="['/retailer-login']">Retailer Login</a></li>
+      <li><a [routerLink]="['/registration-form']">Register</a></li>
+  </ul> 
+  
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+
+  <!--<customer-login></customer-login>-->
+  <!--<registration></registration>-->
+  
+
